@@ -3,7 +3,7 @@ import './App.css';
 import React, { useState } from 'react'
 import Navbar from './components/Navbar';
 import News from './components/News';
-import { 
+import {
     BrowserRouter as Router,
     Routes,
     Route
@@ -12,11 +12,9 @@ import LoadingBar from 'react-top-loading-bar'
 
 const App =()=>{
   const pageSize=15;
-  const apiKey='ae906ebf258e46bca389ae678a3c2dfe';
+  const apiKey= "ae906ebf258e46bca389ae678a3c2dfe";
 
   const [progress, setProgress] = useState(10);
-
-  
 
     return (
       <div>
